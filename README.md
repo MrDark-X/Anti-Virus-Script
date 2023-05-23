@@ -1,4 +1,4 @@
-#Virus Scanner
+# Virus Scanner
 
 This project is a command-line virus scanner implemented in Python. It scans files within a specified directory and its subdirectories for known virus signatures and performs basic heuristics analysis to identify potentially malicious code.
 Features
