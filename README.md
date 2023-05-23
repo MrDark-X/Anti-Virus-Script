@@ -1,13 +1,13 @@
-Virus Scanner
+#Virus Scanner
 
 This project is a command-line virus scanner implemented in Python. It scans files within a specified directory and its subdirectories for known virus signatures and performs basic heuristics analysis to identify potentially malicious code.
 Features
 
-    Scans files for known virus signatures: The scanner compares the content of each file with a predefined list of virus signatures. If a signature is found in a file, it is flagged as potentially infected.
+   Scans files for known virus signatures: The scanner compares the content of each file with a predefined list of virus signatures. If a signature is found in a file, it is flagged as potentially infected.
 
-    Heuristics analysis: In addition to signature-based scanning, the scanner performs a basic heuristics analysis. It checks if the file contains the string "eval(" using string decoding and identifies it as potentially malicious code.
+   Heuristics analysis: In addition to signature-based scanning, the scanner performs a basic heuristics analysis. It checks if the file contains the string "eval(" using string decoding and identifies it as potentially malicious code.
 
-    Recursive directory scanning: The scanner traverses through the specified directory and its subdirectories to scan all files present within them.
+   Recursive directory scanning: The scanner traverses through the specified directory and its subdirectories to scan all files present within them.
 
 Usage
 
