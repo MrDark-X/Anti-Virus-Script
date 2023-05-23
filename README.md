@@ -9,7 +9,7 @@ Features
 
    Recursive directory scanning: The scanner traverses through the specified directory and its subdirectories to scan all files present within them.
 
-Usage
+## Usage
 
     Run the script: Execute the script using a Python interpreter.
 
@@ -17,17 +17,17 @@ Usage
 
     Scanning process: The scanner will scan each file within the specified directory and its subdirectories. If a file is detected as infected or contains potentially malicious code, the scanner will display a corresponding message indicating the issue.
 
-Disclaimer
+## Disclaimer
 
 This virus scanner is intended for educational purposes and basic virus detection. It utilizes a predefined list of virus signatures and performs simple heuristics analysis. It may not detect all types of malware or provide advanced protection. For comprehensive virus protection, it is recommended to use professional antivirus software.
 
 Note: The predefined list of virus signatures can be updated with additional signatures for better detection capabilities.
-Requirements
+## Requirements
 
     Python 3.x
     Operating System: Windows, Linux, macOS
 
-Contributions
+## Contributions
 
 Contributions to this project are welcome. If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request.
 License
